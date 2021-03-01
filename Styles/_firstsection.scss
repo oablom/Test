@@ -69,22 +69,21 @@
                             background: #5474FD;
                             border: 2px solid #FFFFFF;
                             color: white;
-                            font-size: 15px;
+                            font-size: 14px;
                             padding-left: 30px;
                             opacity: 0.8;
-                             .btn1:hover {
-                                button {
-                                    background: black;
-                                }
-                             }
+                            font-family: 'Aleo', serif;
+                            letter-spacing: 1.4px;
                             
                             span {
                                margin-left: 10px;
                                font-size: 18px;
-                            }
-                            
+                            }      
                         }
                     }
+                              button:hover {
+                                background: black;
+                             }
                 
                     .main-scroll {
                         text-align: center;
@@ -149,7 +148,7 @@
                         justify-content: space-between;
                         list-style: none;
                         margin: 0px;
-                        
+                        font-family: 'Aleo', serif;
 
                         li a {
                             color: white;

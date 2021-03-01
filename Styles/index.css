@@ -1,15 +1,15 @@
 body, html {
   width: 100%;
-  height: 4200px;
+  height: 4271px;
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
   line-height: 26px;
   color: white;
-  margin: 0px;
+  margin: 15px;
   padding: 0px;
   display: flex;
   flex-direction: column;
-  background-color: black;
+  align-items: center;
 }
 
 .firstsection {
@@ -74,16 +74,18 @@ body, html {
   background: #5474FD;
   border: 2px solid #FFFFFF;
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   padding-left: 30px;
   opacity: 0.8;
-}
-.firstsection-main .main-searchbar button .btn1:hover button {
-  background: black;
+  font-family: "Aleo", serif;
+  letter-spacing: 1.4px;
 }
 .firstsection-main .main-searchbar button span {
   margin-left: 10px;
   font-size: 18px;
+}
+.firstsection-main button:hover {
+  background: black;
 }
 .firstsection-main .main-scroll {
   text-align: center;
@@ -142,6 +144,7 @@ body, html {
   justify-content: space-between;
   list-style: none;
   margin: 0px;
+  font-family: "Aleo", serif;
 }
 .firstsection-footer ul li a {
   color: white;
@@ -159,12 +162,55 @@ body, html {
   height: 100%;
 }
 
-.secondsection-bg {
+.secondsection-top {
   max-width: 1770px;
   width: 100%;
   max-height: 685px;
   height: 100%;
   background-image: url(../Images/castle.png);
+  display: flex;
+}
+.secondsection-top .secondsection-top1 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.secondsection-top .secondsection-top1 div {
+  max-height: 341px;
+  height: 100%;
+  max-width: 560px;
+  width: 100%;
+  font-family: "Aleo", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transform: translateY(10%);
+}
+.secondsection-top .secondsection-top1 div h5 {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+}
+.secondsection-top .secondsection-top1 div p {
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  font-weight: 300;
+}
+.secondsection-top .secondsection-top1 div button {
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+  width: 225px;
+  height: 60px;
+  background: #5474FD;
+  border: none;
+}
+.secondsection-top .secondsection-top1 div button:hover {
+  background: black;
+}
+.secondsection-top .secondsection-top2 {
+  width: 50%;
 }
 
 .secondsection-bot {
