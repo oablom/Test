@@ -1,0 +1,27 @@
+body, html {
+    width: 100%;
+    height: 4200px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 26px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: black
+}
+
+
+
+@import 'firstsection';
+@import 'secondsection';
+@import 'thirdsection';
+ @import 'fourthsection';
+
+    button {
+        font-family: 'Aleo', serif;
+        font-size: 14;
+        letter-spacing: 1.4px;
+        font-weight: 300;
+    }
