@@ -60,6 +60,10 @@ body, html {
         .firstsection-footer-nav {
             display: flex;
             align-items: center;
+            
+            div {
+                justify-content: flex-end; 
+            }
         }
         
             .firstsection-hamburger {
@@ -77,14 +81,15 @@ body, html {
                     border-radius: 10px;
                 }
             }
-            .firstsection-links {
+            .firstsection-footer-div2 ul {
+                
                 display: none;
             }
         
-            .navbar:active {
+            .navbar.active {
                 
-                .firstsection-links {
-                    display: flex;
+                .firstsection-footer-div2 ul {
+                    display: block;
                 }
                 }
         .secondsection-top {

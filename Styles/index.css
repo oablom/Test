@@ -330,6 +330,9 @@ button {
     display: flex;
     align-items: center;
   }
+  .firstsection-footer-nav div {
+    justify-content: flex-end;
+  }
 
   .firstsection-hamburger {
     margin-right: 50px;
@@ -346,12 +349,12 @@ button {
     border-radius: 10px;
   }
 
-  .firstsection-links {
+  .firstsection-footer-div2 ul {
     display: none;
   }
 
-  .navbar:active .firstsection-links {
-    display: flex;
+  .navbar.active .firstsection-footer-div2 ul {
+    display: block;
   }
 
   .secondsection-top {
